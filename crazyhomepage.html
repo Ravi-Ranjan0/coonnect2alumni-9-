@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="crazyhomepage.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script>(function(w, d) { w.CollectId = "6409e135bddfe03b3a3cf0c0"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+
+
+
+  </head>
+
+<body>
+
+
+
+    <!-- Navabr  -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-sm-between">
+    
+          <h1 class="logo me-auto"><a href="index.html">Community</a></h1>
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li><a class="nav-link scrollto" href="#services">Services</a></li>
+              <li><a class="nav-link scrollto" href="#team">Team</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+
+              <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+
+
+
+
+
+          <!--
+             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <Link to="/" class="navbar-brand" > Community Engage</Link>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <NavLink to="/" className="nav-link" aria-current="page" >Home</NavLink>
+              </li>
+                <li><NavLink to="/about" className="nav-link scrollto" href="#about">About</NavLink ></li>
+                <li><NavLink  to="/services" className="nav-link scrollto" href="#services">Services</NavLink ></li>
+                <li><NavLink to="/team" className="nav-link scrollto" href="#team">Team</NavLink ></li>
+                <li><NavLink to="/contact" className="nav-link scrollto" href="#contact">Contact</NavLink ></li>
+
+              {
+                !auth.user ? (<> <li className="nav-item"> <NavLink to="/register" className="nav-link" >Register</NavLink></li>
+              <li className="nav-item"><NavLink to="/login" className="nav-link">Login</NavLink></li></>) : 
+              (<><li className="nav-item"><NavLink onClick={handleLogout} to="/login" className="nav-link">Logout</NavLink></li></>)
+              }
+            </ul>
+          </div> 
+        -->
+    
+        </div>
+      </header>
+      <!-- Navbar  -->
+
+
+
+
+      <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <h1>Better Solutions For Your Business</h1>
+              <h2>We are team of talented designers making websites with Bootstrap</h2>
+              <div class="d-flex justify-content-center justify-content-lg-start">
+                <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/hero-img.png" class="img-fluid animated" alt='pic'="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <section id="team" class="team section-bg">
+  <div class="container aos-init aos-animate" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Team</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay={100}>
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt='pic' /></div>
+          <div class="member-info">
+            <h4>Walt='pic'er White</h4>
+            <span>Chief Executive Officer</span>
+            <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+            <div class="social">
+              <NavLink href><i class="ri-twitter-fill"></i></NavLink>
+              <NavLink href><i class="ri-facebook-fill" ></NavLink>
+              <NavLink href><i class="ri-instagram-fill" ></NavLink>
+              <NavLink href> <i class="ri-linkedin-box-fill" > </NavLink>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay={200}>
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt='pic' /></div>
+          <div class="member-info">
+            <h4>Sarah Jhonson</h4>
+            <span>Product Manager</span>
+            <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+            <div class="social">
+              <a href><i class="ri-twitter-fill" ></a>
+              <a href><i class="ri-facebook-fill"></a>
+              <a href><i class="ri-instagram-fill" ></a>
+              <a href> <i class="ri-linkedin-box-fill" > </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay={300}>
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt='pic' /></div>
+          <div class="member-info">
+            <h4>William Anderson</h4>
+            <span>CTO</span>
+            <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+            <div class="social">
+              <a href><i class="ri-twitter-fill" ></a>
+              <a href><i class="ri-facebook-fill" ></a>
+              <a href><i class="ri-instagram-fill"></a>
+              <a href> <i class="ri-linkedin-box-fill" > </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay={400}>
+        <div class="member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt='pic' /></div>
+          <div class="member-info">
+            <h4>Amanda Jepson</h4>
+            <span>Accountant</span>
+            <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+            <div class="social">
+              <a href><i class="ri-twitter-fill" ></a>
+              <a href><i class="ri-facebook-fill" ></a>
+              <a href><i class="ri-instagram-fill" ></a>
+              <a href> <i class="ri-linkedin-box-fill" > </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="text-center">
+  <main className="form-signin w-100 m-auto">
+    <form>
+      <div>
+        <img className="mb-4" src="https://cdn-icons-png.flaticon.com/512/3365/3365355.png" alt='pic' width={100} height={100} />
+        <h1 className="h3 mb-3 fw-bold">Welcome to Connect2Alumni</h1>
+      </div>
+      <div className="card text-center">
+        <ul className="nav nav-tabs nav-justified" id="myTab" role="tablist">
+          <li className="nav-item" role="presentation">
+            <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Sign Up</button>
+          </li>
+          <li className="nav-item" role="presentation">
+            <button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Login</button>
+          </li>
+        </ul>
+        <div className="tab-content" id="myTabContent">
+          <div className="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabIndex={0}>
+            <div className="card-body">
+              <div className="form-floating">
+                <input type="text" className="form-control" id="floatingInput" placeholder="Username" />
+                <label htmlFor="floatingInput">Username</label>
+              </div>
+              <div className="form-floating">
+                <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label htmlFor="floatingInput">Email address</label>
+              </div>
+              <div className="form-floating">
+                <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
+                <label htmlFor="floatingPassword">Password</label>
+              </div>
+              <button className="w-100 btn btn-lg btn-primary" type="submit">Create An Account</button>
+            </div>
+          </div>
+          <div className="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabIndex={0}>
+            <div className="card-body">
+              <div className="form-floating">
+                <input type="text" className="form-control" id="floatingInput" placeholder="Username" />
+                <label htmlFor="floatingInput">Username</label>
+              </div>
+              <div className="form-floating">
+                <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
+                <label htmlFor="floatingPassword">Password</label>
+              </div>
+              <button className="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="mt-5 mb-3 text-muted">© Tech Troopers</p>
+    </form>
+  </main>
+</div>
+
+  
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      
+</div>
+</html>
